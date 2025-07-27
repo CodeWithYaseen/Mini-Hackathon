@@ -1,0 +1,50 @@
+
+
+:root{
+    --GreenColor:#4CAF4F;
+    --WhiteColor:#ffffff;
+    --silverColor:#F5F7FA;
+    --textColor:#4D4D4D;
+}
+.hero1{
+    background-color: var(--silverColor);
+    height: 50vh;
+}
+.hero4{
+    background-color: var(--silverColor);
+    height: 50vh;
+}
+.hero1customColor{
+color: var(--GreenColor);
+}
+.hero1btnBgColor{
+    background-color: var(--GreenColor);
+    color: var(--WhiteColor);
+    border: none;
+
+}
+.hero4btnBgColor{
+    background-color: var(--GreenColor);
+    color: var(--WhiteColor);
+    border: none;
+
+}
+.hero1Section1 h1{
+    font-size: 64px;
+}
+.hero4Section1 h1{
+    font-size: 36px;
+}
+.hero2{
+    color: var(--textColor);
+}
+.hero3Sec1{
+    margin-top: 80px !important;
+}
+.hero3{
+    margin-top: 120px !important;
+
+}
+.hero5Sec1Color{
+    color: var(--GreenColor);
+}
