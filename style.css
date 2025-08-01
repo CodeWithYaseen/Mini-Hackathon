@@ -5,14 +5,14 @@
     --WhiteColor:#ffffff;
     --silverColor:#F5F7FA;
     --textColor:#4D4D4D;
+    --footerColor:#263238;
 }
 .hero1{
     background-color: var(--silverColor);
-    height: 50vh;
+    /* height: 50vh; */
 }
-.hero4{
-    background-color: var(--silverColor);
-    height: 50vh;
+.hero1Section1 h1{
+    font-size: 64px;
 }
 .hero1customColor{
 color: var(--GreenColor);
@@ -21,7 +21,20 @@ color: var(--GreenColor);
     background-color: var(--GreenColor);
     color: var(--WhiteColor);
     border: none;
+}
+.hero2{
+    color: var(--textColor);
+}
+.hero3{
+    margin-top: 120px !important;
+}
+.hero3Sec1{
+    margin-top: 80px !important;
+}
 
+.hero4{
+    background-color: var(--silverColor);
+    /* height: 50vh; */
 }
 .hero4btnBgColor{
     background-color: var(--GreenColor);
@@ -29,22 +42,70 @@ color: var(--GreenColor);
     border: none;
 
 }
-.hero1Section1 h1{
-    font-size: 64px;
-}
+
 .hero4Section1 h1{
     font-size: 36px;
 }
-.hero2{
-    color: var(--textColor);
-}
-.hero3Sec1{
-    margin-top: 80px !important;
-}
-.hero3{
-    margin-top: 120px !important;
 
-}
 .hero5Sec1Color{
     color: var(--GreenColor);
+}
+.hero7{
+    background-color: var(--silverColor);
+    /* margin-top: ; */
+    /* border: solid; */
+    /* height: 50vh; */
+}
+.hero7img{
+    height: 320px !important;
+    width: 32ppx !important;
+}
+.hero7Section1Part1 .items7{
+    color: var(--GreenColor);
+}
+.hero7Section1{
+    width: 65%;
+}
+
+.hero8Sec1 p{
+/* width: 54%; */
+width: 600px;
+/* border: solid; */
+}
+.hero8Card1Sec2{
+    height: 156px;
+    width: 317px;
+    /* border: solid red; */
+    bottom: 90px !important;
+background-color: var(--silverColor);
+}
+.fa-solid:hover{
+    color: var(--WhiteColor);
+}
+.hero9Sec1 h1{
+    font-size: 64px;
+}
+footer{
+    background-color: var(--footerColor);
+    color: var(--WhiteColor);
+}
+footer input, textarea {
+  background-color: rgb(177, 173, 173);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+footer input::placeholder{
+    color: rgb(241, 234, 234);
+}
+footer ul li a{
+    color: gray;
+}
+footer ul li a:hover{
+    color: rgb(173, 167, 167);
+}
+.input-field{
+    /* border: solid; */
+    background-color: rgb(177, 173, 174);
+    border-radius: 5px;
 }
