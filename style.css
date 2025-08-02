@@ -98,6 +98,9 @@ footer input, textarea {
 footer input::placeholder{
     color: rgb(241, 234, 234);
 }
+footer input{
+    color: rgb(59, 58, 58);
+}
 footer ul li a{
     color: gray;
 }
@@ -106,6 +109,7 @@ footer ul li a:hover{
 }
 .input-field{
     /* border: solid; */
-    background-color: rgb(177, 173, 174);
+    
+    background-color: rgb(94, 94, 94);
     border-radius: 5px;
 }
