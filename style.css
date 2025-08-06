@@ -14,6 +14,9 @@
 .hero1Section1 h1{
     font-size: 64px;
 }
+.hero1Section1{
+    border: solid;
+}
 .hero1customColor{
 color: var(--GreenColor);
 }
@@ -35,6 +38,7 @@ color: var(--GreenColor);
 .hero4{
     background-color: var(--silverColor);
     /* height: 50vh; */
+    border: solid;
 }
 .hero4btnBgColor{
     background-color: var(--GreenColor);
@@ -42,9 +46,20 @@ color: var(--GreenColor);
     border: none;
 
 }
-
+.hero4Section1, .her4Section2 {
+    border: solid;
+}
 .hero4Section1 h1{
     font-size: 36px;
+}
+.hero5{
+    border: solid;
+}
+.hero5Sec1{
+    border: solid red;
+}
+.bothsec{
+    border: solid gray;
 }
 
 .hero5Sec1Color{
@@ -63,9 +78,9 @@ color: var(--GreenColor);
 .hero7Section1Part1 .items7{
     color: var(--GreenColor);
 }
-.hero7Section1{
-    width: 65%;
-}
+/* .hero7Section1{ */
+    /* width: 65%; */
+/* } */
 
 .hero8Sec1 p{
 /* width: 54%; */
